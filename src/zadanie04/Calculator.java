@@ -48,8 +48,12 @@ public class Calculator {
     }
 
     public void printOperations(){
-        for (int i = 0; i < this.operations.length; i++){
-            System.out.println(this.operations[i]);
+        //for (int i = 0; i < this.operations.length; i++){
+        //    System.out.println(this.operations[i]);
+        //}
+
+        for (String s: this.operations){
+            System.out.println(s);
         }
     }
 
